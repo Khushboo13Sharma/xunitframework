@@ -7,6 +7,7 @@ namespace TestFramework
     public class UnitTest1
     {
         [Fact]
+        [Trait("Category", "UnitTesting")]
         public void Test1()
         {
             var x = new Program();
